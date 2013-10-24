@@ -1,5 +1,8 @@
+-if @data != nil
+  h1 Ticket Data for: #{ @artist }
 
-h1 Ticket Data for: #{ @artist }
+  p Lowest ticket price: #{ @data[:lowest_price] }
+  p Highest ticket price: #{ @data[:highest_price] }
 
-p Lowest ticket price: #{ @data[:lowest_price] }
-p Highest ticket price: #{ @data[:highest_price] }
+-else 
+  h1 No Artist Given

@@ -12,6 +12,14 @@ describe HomeController do
       expect(response).to be_success
     end
 
+    it "loads #index when no artist param given" do
+      expect(@controller).to receive(:fetch_event_api_data).with('')
+      expect(@controller).to receive(:process_api_data)
+
+      get 'index', { :artist => '' }
+      expect(response).to be_success
+    end
+
     it "calculates event data based on seatgeek's api response" do
       VCR.use_cassette('bieber_events') do
         api_data = @controller.fetch_event_api_data('justin-bieber')
