@@ -28,4 +28,6 @@ end
 group :test do
   gem 'database_cleaner', '1.0.1'
   gem 'email_spec'
+  gem 'vcr', '~> 2.6.0'
+  gem 'webmock', '~> 1.13.0'
 end

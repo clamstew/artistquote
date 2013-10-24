@@ -1,0 +1,106 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.seatgeek.com/2/events?performers.slug=justin-bieber
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - '*/*'
+      User-Agent:
+      - Ruby
+      Host:
+      - api.seatgeek.com
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      X-Trace:
+      - ''
+      Server:
+      - TornadoServer/2.3 (Gunicorn/17.5)
+      Etag:
+      - '"9f6395e15aca95057d10af1f63233c37cbccd06a"'
+      Cache-Control:
+      - max-age=1800
+      Access-Control-Allow-Origin:
+      - '*'
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '1885'
+      Accept-Ranges:
+      - bytes
+      Date:
+      - Thu, 24 Oct 2013 15:38:58 GMT
+      X-Varnish:
+      - 413772094 413748404
+      Age:
+      - '620'
+      Via:
+      - 1.1 varnish
+      Connection:
+      - close
+    body:
+      encoding: UTF-8
+      string: '{"meta":{"per_page":10,"total":23,"geolocation":null,"took":14,"page":1},"events":[{"links":[],"id":1640198,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-10-24T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/panama-city-figali-2013-10-24-7-pm/concert/1640198/","venue":{"city":"Panama
+        City","name":"Figali","extended_address":"Panama City, Panama","url":"http://seatgeek.com/venues/figali/tickets/","country":"Panama","display_location":"Panama
+        City, Panama","links":[],"slug":"figali","state":"8","score":0,"postal_code":"","location":{"lat":8.99427,"lon":-79.5188},"address":"Fort
+        Amador","id":29803},"short_title":"Justin Bieber","datetime_utc":"2013-10-25T00:00:00","datetime_tbd":false},{"links":[],"id":1640179,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-10-26T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/guatemala-city-estadio-progresso-2013-10-26-7-pm/concert/1640179/","venue":{"city":"Guatemala
+        City","name":"Estadio Progresso","extended_address":"Guatemala City, Guatemala","url":"http://seatgeek.com/venues/estadio-progresso/tickets/","country":"Guatemala","display_location":"Guatemala
+        City, Guatemala","links":[],"slug":"estadio-progresso","state":null,"score":0,"postal_code":"","location":{"lat":14.6248,"lon":-90.5328},"address":"","id":53054},"short_title":"Justin
+        Bieber","datetime_utc":"2013-10-27T01:00:00","datetime_tbd":false},{"links":[],"id":1640203,"stats":{"listing_count":12,"average_price":294.5,"lowest_price":112.0,"highest_price":421.0},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-10-29T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/bogota-estadio-el-campin-2013-10-29-7-pm/concert/1640203/","venue":{"city":"Bogota","name":"Estadio
+        El Campin","extended_address":"Bogota, Colombia","url":"http://seatgeek.com/venues/estadio-el-campin/tickets/","country":"Colombia","display_location":"Bogota,
+        Colombia","links":[],"slug":"estadio-el-campin","state":null,"score":0,"postal_code":"BOGOTA","location":{"lat":4.64586,"lon":-74.0774},"address":"Carrera
+        30 No. 57-60 Entrada 9","id":52120},"short_title":"Justin Bieber","datetime_utc":"2013-10-30T00:00:00","datetime_tbd":false},{"links":[],"id":1640177,"stats":{"listing_count":19,"average_price":589.0,"lowest_price":367.0,"highest_price":3023.0},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-10-31T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/quito-atahualpa-stadium-2013-10-31-7-pm/concert/1640177/","venue":{"city":"Quito","name":"Atahualpa
+        Stadium","extended_address":"Quito, Ecuador","url":"http://seatgeek.com/venues/atahualpa-stadium/tickets/","country":"Ecuador","display_location":"Quito,
+        Ecuador","links":[],"slug":"atahualpa-stadium","state":null,"score":0,"postal_code":"","location":{"lat":-0.17774,"lon":-78.477},"address":"","id":53052},"short_title":"Justin
+        Bieber","datetime_utc":"2013-11-01T00:00:00","datetime_tbd":false},{"links":[],"id":1640991,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-11-02T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/rio-de-janerio-apoteose-2013-11-02-7-pm/concert/1640991/","venue":{"city":"rio
+        de janerio","name":"Apoteose","extended_address":"rio de janerio, Brazil","url":"http://seatgeek.com/venues/apoteose/tickets/","country":"Brazil","display_location":"rio
+        de janerio, Brazil","links":[],"slug":"apoteose","state":"RJ","score":0,"postal_code":"20210-072","location":{"lat":-22.9131,"lon":-43.1966},"address":"R.
+        Marques de Sapucai","id":7313},"short_title":"Justin Bieber","datetime_utc":"2013-11-02T21:00:00","datetime_tbd":false},{"links":[],"id":1640992,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-11-03T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/sao-paulo-anhembi-stadium-2013-11-03-7-pm/concert/1640992/","venue":{"city":"Sao
+        Paulo","name":"Anhembi Stadium","extended_address":"Sao Paulo, Brazil","url":"http://seatgeek.com/venues/anhembi-stadium/tickets/","country":"Brazil","display_location":"Sao
+        Paulo, Brazil","links":[],"slug":"anhembi-stadium","state":null,"score":0,"postal_code":"","location":{"lat":-23.5489,"lon":-46.6388},"address":"Sao
+        Paulo, Brazil","id":33174},"short_title":"Justin Bieber","datetime_utc":"2013-11-03T21:00:00","datetime_tbd":false},{"links":[],"id":1640197,"stats":{"listing_count":null,"average_price":null,"lowest_price":null,"highest_price":null},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-11-06T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/asuncion-jockey-club-2013-11-06-7-pm/concert/1640197/","venue":{"city":"Asuncion","name":"Jockey
+        Club","extended_address":"Asuncion, Paraguay","url":"http://seatgeek.com/venues/jockey-club/tickets/","country":"Paraguay","display_location":"Asuncion,
+        Paraguay","links":[],"slug":"jockey-club","state":null,"score":0,"postal_code":"N/A","location":{"lat":-25.2822,"lon":-57.6351},"address":"Asuncion,
+        Paraguay","id":15648},"short_title":"Justin Bieber","datetime_utc":"2013-11-06T22:00:00","datetime_tbd":false},{"links":[],"id":1640196,"stats":{"listing_count":256,"average_price":366.5,"lowest_price":20.0,"highest_price":3211.0},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-11-08T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/cordoba-estadio-mario-alberto-kempes-2013-11-08-7-pm/concert/1640196/","venue":{"city":"Cordoba","name":"Estadio
+        Mario Alberto Kempes","extended_address":"Cordoba, Argentina","url":"http://seatgeek.com/venues/estadio-mario-alberto-kempes/tickets/","country":"Argentina","display_location":"Cordoba,
+        Argentina","links":[],"slug":"estadio-mario-alberto-kempes","state":"X","score":0,"postal_code":"1
+        978","location":{"lat":-31.4072,"lon":-64.1857},"address":"","id":9874},"short_title":"Justin
+        Bieber","datetime_utc":"2013-11-08T22:00:00","datetime_tbd":false},{"links":[],"id":1640188,"stats":{"listing_count":270,"average_price":428.5,"lowest_price":105,"highest_price":7118},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-11-09T19:00:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/buenos-aires-river-plate-stadium-2013-11-09-7-pm/concert/1640188/","venue":{"city":"Buenos
+        Aires","name":"River Plate Stadium","extended_address":"Buenos Aires, Argentina","url":"http://seatgeek.com/venues/river-plate-stadium/tickets/","country":"Argentina","display_location":"Buenos
+        Aires, Argentina","links":[],"slug":"river-plate-stadium","state":"??","score":0,"postal_code":"","location":{"lat":-34.5453,"lon":-58.4497},"address":"7597
+        Av. Pte. Figueroa Alcorta","id":31481},"short_title":"Justin Bieber","datetime_utc":"2013-11-09T22:00:00","datetime_tbd":false},{"links":[],"id":1757194,"stats":{"listing_count":517,"average_price":268,"lowest_price":122,"highest_price":2019},"title":"Justin
+        Bieber","score":0.74267,"date_tbd":false,"type":"concert","datetime_local":"2013-11-10T16:30:00","time_tbd":false,"taxonomies":[{"parent_id":null,"id":2000000,"name":"concert"}],"performers":[{"name":"Justin
+        Bieber","short_name":"Justin Bieber","url":"http://seatgeek.com/justin-bieber-tickets","type":"band","image":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","primary":true,"slug":"justin-bieber","score":0.75395,"images":{"huge":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-d04795/huge.jpg","medium":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-ac2662/medium.jpg","large":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-23ce49/large.jpg","small":"http://cdn.chairnerd.com/images/performers/2446/justin-bieber-b367d8/small.jpg"},"id":2446}],"url":"http://seatgeek.com/justin-bieber-tickets/buenos-aires-estadio-monumental-antonio-vespucio-liberti-2013-11-10-4-30-pm/concert/1757194/","venue":{"city":"Buenos
+        Aires","name":"Estadio Monumental Antonio Vespucio Liberti","extended_address":"Buenos
+        Aires, Argentina","url":"http://seatgeek.com/venues/estadio-monumental-antonio-vespucio-liberti/tickets/","country":"Argentina","display_location":"Buenos
+        Aires, Argentina","links":[],"slug":"estadio-monumental-antonio-vespucio-liberti","state":null,"score":0,"postal_code":"null","location":{"lat":-34.5453,"lon":-58.4497},"address":"","id":49609},"short_title":"Justin
+        Bieber","datetime_utc":"2013-11-10T19:30:00","general_admission":true,"datetime_tbd":false}]}'
+    http_version: 
+  recorded_at: Thu, 24 Oct 2013 15:38:58 GMT
+recorded_with: VCR 2.6.0
